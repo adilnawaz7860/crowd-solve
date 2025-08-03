@@ -96,7 +96,7 @@ export function Header() {
               asChild
             >
               <Link
-                href="https://github.com/icantcodefyi/elafda"
+                href="https://github.com/adilnawaz7860/crowd-solve"
                 target="_blank"
                 rel="noopener noreferrer"
               >
