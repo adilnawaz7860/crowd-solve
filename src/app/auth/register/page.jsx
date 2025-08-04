@@ -10,11 +10,14 @@ import { Loader2 } from "lucide-react";
 import Link from "next/link";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { useAuth } from "../../../hooks/useAuth";
 
 
 export default function RegisterPage() {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+    const { userId } = useAuth()
+  
 
  
 
